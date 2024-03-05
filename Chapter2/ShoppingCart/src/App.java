@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class App {
@@ -18,5 +19,13 @@ public class App {
 
         items.add("Book");
         System.out.println(ShoppingCart.getDiscountPercentage(items));
+
+        List<String> names = new ArrayList<>();
+        names.add("Alice");
+        System.out.println(TipCalculator.getTipPercentage(names));
+
+        names.addAll(Arrays.asList("Bob", "Charlie", "Dave", "Eve","Kenji"));
+        System.out.println(TipCalculator.getTipPercentage(names));
+
     }
 }
