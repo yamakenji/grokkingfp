@@ -61,3 +61,6 @@ classes/
 # Visual Studio Code
 .vscode
 .metals
+
+# Bloop build cache
+.scala-build/
