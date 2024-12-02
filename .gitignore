@@ -64,3 +64,6 @@ classes/
 
 # Bloop build cache
 .scala-build/
+# Metals
+.metals/
+.bloop/
