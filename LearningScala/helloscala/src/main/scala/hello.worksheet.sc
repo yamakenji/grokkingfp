@@ -1,4 +1,3 @@
-import java.sql.DriverManager.println
 
 println("Hello, World!")
 
@@ -47,4 +46,18 @@ val age: Int = 55
 
 println(firstName + " " + lastName)
 
-if a == b then println("a == b")
+// if a == b then println("a == b")
+
+val a2: Int = 1
+val b2: Int = 2
+val c2 = if a < b then a else b
+println(c2)
+
+val t1 = (1, "1", '1', 1.1)
+
+val t2 = (42, "fish")
+
+t2(0)
+t2(1)
+t2.size
+
