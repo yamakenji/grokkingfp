@@ -9,13 +9,6 @@ val answer = 8 * 5 + 2
 
 // answer = 0
 
-<<<<<<< HEAD
-1.toString()
-
-1.to(10)
-
-"Hello".intersect("World")
-=======
 println("Hello, World!")
 
 val firstName = "Kenji"
@@ -67,5 +60,4 @@ val t2 = (42, "fish")
 t2(0)
 t2(1)
 t2.size
->>>>>>> origin/HEAD
 
