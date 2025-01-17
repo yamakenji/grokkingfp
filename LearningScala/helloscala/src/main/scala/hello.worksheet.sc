@@ -61,3 +61,5 @@ t2(0)
 t2(1)
 t2.size
 
+"Hello".intersect("World")
+
