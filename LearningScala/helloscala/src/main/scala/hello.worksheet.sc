@@ -64,3 +64,18 @@ t2.size
 "Hello".intersect("World")
 
 "こんにちは".intersect("こんばんは")
+
+1.toString()
+
+1.to(10)
+
+val answer1 = 8 * 5 + 2
+
+1 to 10
+
+"Bonjour".sorted
+
+import scala.math.* 
+sqrt(2)
+pow(2, 4)
+min(3,Pi)
