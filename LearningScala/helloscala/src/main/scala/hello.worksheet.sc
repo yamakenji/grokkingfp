@@ -63,3 +63,4 @@ t2.size
 
 "Hello".intersect("World")
 
+"こんにちは".intersect("こんばんは")
